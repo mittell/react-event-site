@@ -102,7 +102,7 @@ const Content = ({
 							initial={animation}
 							transition={transition}
 							animate={animation}
-							bigimage={bigImage}
+							bigImage={bigImage}
 						>
 							<ImgWrapper>
 								<Img
