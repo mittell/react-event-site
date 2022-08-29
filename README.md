@@ -4,7 +4,7 @@ An Event Site built with React.
 
 ## Demo
 
-[Link]()
+[Link](https://friendly-scone-3cabb2.netlify.app/)
 
 ## Getting Started
 
