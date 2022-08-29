@@ -1,5 +1,5 @@
 import styled, { createGlobalStyle } from 'styled-components';
-import { reverseBackgroundColor, backgroundColor } from './data/GlobalData';
+import { dark, light } from './data/GlobalData';
 
 const GlobalStyle = createGlobalStyle`
 * {
@@ -24,15 +24,13 @@ export const Container = styled.div`
 export const Section = styled.div`
 	color: white;
 	padding: 160px;
-	background: ${({ inverse }) =>
-		inverse ? backgroundColor : reverseBackgroundColor};
+	background: ${({ inverse }) => (inverse ? light : dark)};
 `;
 
 export const MainHeading = styled.h1`
 	font-size: clamp(2.3rem, 6vw, 4.5rem);
 	margin-bottom: 2rem;
-	color: ${({ inverse }) =>
-		inverse ? reverseBackgroundColor : backgroundColor};
+	color: ${({ inverse }) => (inverse ? dark : light)};
 	width: 100%;
 	letter-spacing: 4px;
 	text-align: center;

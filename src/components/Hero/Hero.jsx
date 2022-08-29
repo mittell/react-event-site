@@ -14,9 +14,7 @@ function Hero() {
 		<>
 			<HeroSection ref={ref} id='hero'>
 				<Container>
-					<MainHeading inverse>
-						Find the best events and meetups with us
-					</MainHeading>
+					<MainHeading>Find the best events and meetups with us</MainHeading>
 					<HeroText>
 						We help you find all of your favourite events in one place
 					</HeroText>

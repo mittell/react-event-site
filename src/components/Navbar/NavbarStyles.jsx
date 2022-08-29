@@ -2,10 +2,10 @@ import styled from 'styled-components';
 import { Container } from '../../globalStyles';
 import { Link } from 'react-router-dom';
 import { Link as LinkScroll } from 'react-scroll';
-import { backgroundColor } from '../../data/GlobalData';
+import { dark } from '../../data/GlobalData';
 
 export const Nav = styled.nav`
-	background: ${({ hide }) => (hide ? 'transparent' : backgroundColor)};
+	background: ${({ hide }) => (hide ? 'transparent' : dark)};
 	margin-top: -80px;
 	height: 80px;
 	display: flex;
