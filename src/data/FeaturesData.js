@@ -2,7 +2,7 @@ import React from 'react';
 
 import { GiPartyFlags, GiMicrophone } from 'react-icons/gi';
 import { TiGroupOutline } from 'react-icons/ti';
-const iconStyle = (Icon) => <Icon size="3rem" color="red" />;
+const iconStyle = (Icon) => <Icon size='3rem' color='red' />;
 
 export const featuresData = {
 	title: 'Our Programs',
@@ -10,7 +10,8 @@ export const featuresData = {
 	content: [
 		{
 			name: 'Networking',
-			description: 'Meet wonderful people that share your interests and make friends',
+			description:
+				'Meet wonderful people that share your interests and make friends',
 			icon: iconStyle(TiGroupOutline),
 			image: './assets/features/Network.svg',
 		},
